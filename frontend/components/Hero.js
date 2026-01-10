@@ -199,7 +199,7 @@ export default function Hero() {
             alt="Encrypted graphic"
             width={70}
             height={70}
-            className="m-2 sm:m-4 mt-30 sm:-mt-20"
+            className="m-2 ml-9 sm:ml-0 sm:m-4 mt-30 sm:-mt-20"
           />
         </motion.div>
 

@@ -95,7 +95,7 @@ export default function AboutPage() {
         viewport={{ once: false, amount: 0.3 }}
       >
         <motion.span
-          className="text-4xl font-bold mb-6"
+          className="text-4xl font-bold mb-6n text-white"
           style={{ fontVariant: "small-caps" }}
           variants={fallVariant}
         >
@@ -103,7 +103,7 @@ export default function AboutPage() {
         </motion.span>
 
         <motion.p
-          className="text-sm sm:text-base leading-relaxed"
+          className="text-sm text-gray-100 sm:text-base leading-relaxed"
           variants={fallVariant}
         >
          The journey hasn't been easy and is not...  Yet i keep pushing Foward ! Beyond coding, I’m driven by a vision — to build digital systems that empower people and simplify the way we live and work.I believe technology should help make the world a better version of it self positively — intuitive, intelligent, and impactful.Every line of code I write is a step toward that future
@@ -111,8 +111,8 @@ export default function AboutPage() {
 
         <motion.span className="mt-6" variants={fallVariant}>
           <Link
-            href="/Ex/Contactpage/#contactme"
-            className="text-blue-400 hover:underline"
+            href="/Ex_pages/fContact"
+            className="text-green-300 hover:underline"
           >
             Contact Me
           </Link>
