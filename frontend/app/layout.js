@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Unique UO.WebSolutions",
-  description: "Building Solutions of tomorrow efficiently",
+  description: "Designing intelligent digital solutions that anticipate what’s next.",
 };
 
 export default function RootLayout({ children }) {

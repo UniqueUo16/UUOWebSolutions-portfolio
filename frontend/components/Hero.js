@@ -22,9 +22,9 @@ const iconsMap = {
 };
 
 const social_links = [
-  { icon: "linkedin", href: "https://linkedin.com/..." },
+  { icon: "linkedin", href: "https://www.linkedin.com/in/unique-uo-19b570341" },
   { icon: "whatsapp", href: "/Ex_pages/Watsapp" },
-  { icon: "x", href: "https://x.com/..." },
+  { icon: "x", href: "https://www.tiktok.com/@uuo.websolutions?_r=1&_t=ZS-92xnoJE0qeI" },
   { icon: "minutemailer", href: "/Ex_pages/telegram" }
 ];
 
@@ -190,8 +190,8 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          animate={{ y: [45, 5, 50] }}
-          transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
+          animate={{ y: [5, 1805, 2020] }}
+          transition={{ repeat: Infinity, duration: 7, ease: "easeInOut" }}
           className="absolute top-0 right-0"
         >
           <Image
@@ -199,7 +199,7 @@ export default function Hero() {
             alt="Encrypted graphic"
             width={70}
             height={70}
-            className="m-2 ml-9 sm:ml-0 sm:m-4 mt-30 sm:-mt-20"
+            className="m-2 ml-56 sm:ml-0 sm:m-4 mt-30 sm:-mt-20 "
           />
         </motion.div>
 
