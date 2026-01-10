@@ -22,9 +22,9 @@ export default function Footer() {
         <div className={`${montserrat.className}`}>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="/Ex/Aboutpage" className="hover:text-white">About</a></li>
-            <li><a href="/Ex/Teampage/#projects" className="hover:text-white">Projects</a></li>
-            <li><a href="/Ex/Skills" className="hover:text-white">Skills</a></li>
+            <li><a href="/" className="hover:text-white">About</a></li>
+            <li><a href="/Ex_pages/Works" className="hover:text-white">Projects</a></li>
+            <li><a href="/Ex_pages/Skills" className="hover:text-white">Skills</a></li>
             <li><a href="/Ex_pages/fContactme" className="hover:text-white">Contact</a></li>
           </ul>
         </div>

@@ -91,9 +91,9 @@ export default function Hero() {
           <Typewriter
             options={{
               strings: [
-                "I Specialize in Creating Next Solutions With software",
-                "Helping Brands Grow With Strategy and Next Lvl.. data",
-                "Delivering Results That Matter"
+                "I create web solutions that help businesses grow online",
+                "I build websites and apps that simplify operations and engage customers",
+                "I deliver results that actually matter to your business"
               ],
               autoStart: true,
               loop: true,
@@ -107,8 +107,7 @@ export default function Hero() {
           className="mt-6 text-sm sm:text-base leading-relaxed max-w-lg mx-auto md:mx-0"
           variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
         >
-          I’m Full-Stack Developer from Benin City, Nigeria — a creator who builds solutions that move people and businesses forward. I design and develop scalable web applications, combining frontend precision with backend power. With a growing passion for AI and Machine Learning, I’m on a mission to connect innovation with human impact.
-        </motion.p>
+The journey hasn’t been easy, and it’s far from over — yet I keep pushing forward! Beyond coding, I’m driven by a vision: to build digital systems that empower people and simplify life and work. I believe technology should make the world a better version of itself, intuitive, intelligent, and impactful. Every line of code I write is a step toward that future.        </motion.p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">

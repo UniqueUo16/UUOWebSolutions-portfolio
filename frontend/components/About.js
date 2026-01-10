@@ -77,7 +77,7 @@ export default function AboutPage() {
         
                   {/* Foreground Image */}
                   <Image
-                    src="/imgs/potrait.PNG"
+                    src="/imgs/favicon.ico"
                     alt="pic"
                     fill
                     className="relative object-scale-down rounded-full mt-[2rem]"
