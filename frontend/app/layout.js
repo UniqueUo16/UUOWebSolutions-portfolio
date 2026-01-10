@@ -1,3 +1,4 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -13,9 +14,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata = {
   title: "Unique UO.WebSolutions",
   description: "Designing intelligent digital solutions that anticipate what’s next.",
+   icons: {
+    icon: "/favicon.JPG",
+  },
 };
 
 export default function RootLayout({ children }) {
