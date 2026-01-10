@@ -47,10 +47,10 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/Ex_pages/fAbout", label: "About" },
-    { href: "/Ex/Skills/#skills", label: "Skills" },
-    { href: "/Ex/Services/#services", label: "Services" },
-    { href: "/Ex/Teampage/#projects", label: "Projects" },
+    // { href: "/", label: "About" },
+    { href: "/Ex_pages/Skills", label: "Skills" },
+    { href: "/Ex_pages/Services", label: "Services" },
+    { href: "/Ex_pages/Works", label: "Projects" },
     { href: "/Ex_pages/fContact", label: "Contact" },
     { href: "/Ex_pages/Watsapp", label: "meet 1 on 1" },
     { href: "/Ex/Testimonials/#testi", label: "Credits & Testimonials" },
@@ -73,7 +73,7 @@ export default function Navbar() {
           >
             Unique | <span className="text-[#7242e2]">Uo</span>
             <MessageCircleIcon
-              className="text-[#2e1a5c] ml-[2rem]"
+              className="text-[#2e1a5c] ml-8"
               size={20}
             />
             Chatme
@@ -127,7 +127,7 @@ export default function Navbar() {
           ${open ? "translate-x-0" : "translate-x-full"}`} style={{fontVariant: "small-caps"}}
         >
           <div className="flex justify-between items-center mb-6">
-            <span className="text-lg font-bold">Unique Uo || Portfolio</span>
+            <span className="text-lg font-bold">My Portfolio</span>
             <button
               onClick={() => setOpen(false)}
               className="text-gray-600 hover:text-black"
@@ -143,7 +143,7 @@ export default function Navbar() {
             href="/"
             className=" flex justify-center items-center mt-[-1.4rem] hover:text-[#4d42e2] border-b-2 w-[10vw] p-3 border-[purple]"
             >
-              <HomeIcon className=""/>
+              <HomeIcon/>
             </motion.a>
 
  <div className="flex flex-col">
@@ -173,7 +173,7 @@ export default function Navbar() {
         <div className="ml-4 flex flex-col gap-2 text-sm text-gray-700" style={{fontVariant: "small-caps"}}>
           <Link href="/Ex_pages/Phone" className="hover:text-[#8742e2] cursor-pointer ml-[-0.5rem]">1-on-1 (Connect-with-me) </Link>
           <a href="https://www.linkedin.com/in/unique-uo-19b570341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="hover:text-[#8742e2]  cursor-pointer border-b-2">Linkedin</a>
-          <a href="/Ex/fContactme"className="hover:text-[#8742e2]  cursor-pointer">Request-Service</a>
+          <a href="/Ex_pages/fContact"className="hover:text-[#8742e2]  cursor-pointer">Request-Service</a>
         </div>
       </div>
     </div>
@@ -181,10 +181,10 @@ export default function Navbar() {
 
             
             <a
-              href="/Ex/Teampage/#projects"
+              href="/Ex_pages/Works"
               className="hover:text-[#4d42e2] border-b border-[purple] flex justify-between p-1"
             >
-             Projects<Projector /><FileArchive/>
+             Projects<Projector />
             </a>
             <a
               href="https://www.linkedin.com/in/unique-uo-19b570341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
@@ -200,11 +200,11 @@ export default function Navbar() {
             </a>
 
             <div className="flex flex-col">
-             <span href="Ex_pages/fContactme"
+             <span 
               onClick={()=> setSer(!ser)}
               className="hover:text-[#4d42e2]  border-[purple] flex justify-between p-1"
             >
-              <Link href="/Ex_pages/fservices">Services <ChevronDown size={16} className={`transform transition-transform duration-300 ${
+              <Link href="/Ex_pages/Services">Services <ChevronDown size={16} className={`transform transition-transform duration-300 ${
             ser ? "rotate-180" : "rotate-0"
           }`} /></Link> 
             </span>
@@ -225,11 +225,11 @@ export default function Navbar() {
       </div>
 
             <div className="flex flex-col">
-             <span href="Ex_pages/fContactme"
+             <span href="/Ex_pages/fContactme"
               onClick={()=> setSkills(!skills)}
               className="hover:text-[#4d42e2]  border-[purple] flex justify-between p-1"
             >
-              <Link href="/Ex_pages/fservices">Skills <ChevronDown size={16} className={`transform transition-transform duration-300 ${
+              <Link href="/Ex_pages/Skills">Skills <ChevronDown size={16} className={`transform transition-transform duration-300 ${
             skills ? "rotate-180" : "rotate-0"
           }`} /></Link> 
             </span>
@@ -259,7 +259,7 @@ export default function Navbar() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Image
-                src="/imgs/frontend-ex.jpeg"
+                src="/imgs/fr-dev.avif"
                 alt="blog1"
                 height={80}
                 width={120}

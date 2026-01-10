@@ -10,7 +10,7 @@ const baloo = Baloo_Chettan_2({
     subsets:["latin"], weight:["400", "600", "800"]
 })
 
-export default function Project() {
+export default function Works() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   // 🔹 Press Escape to close modal
